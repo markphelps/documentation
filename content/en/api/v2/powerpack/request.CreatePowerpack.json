@@ -1,0 +1,42 @@
+{
+  "data": {
+    "type": "powerpack",
+    "attributes": {
+      "name": "Sample Powerpack",
+      "description": "Sample powerpack",
+      "group_widget": {
+        "definition": {
+          "widgets": [
+            {
+              "definition": {
+                "type": "note",
+                "content": "test"
+              }
+            }
+          ],
+          "layout_type": "ordered",
+          "type": "group",
+          "show_title": true,
+          "title": "Sample Powerpack"
+        },
+        "layout": {
+          "y": 0,
+          "x": 0,
+          "width": 12,
+          "height": 3
+        }
+      },
+      "template_variables": [
+        {
+          "name": "sample",
+          "defaults": [
+            "*"
+          ]
+        }
+      ],
+      "tags": [
+        "tag:sample"
+      ]
+    }
+  }
+}
