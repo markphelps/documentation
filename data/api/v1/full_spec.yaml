@@ -7788,7 +7788,7 @@ components:
           format: double
           type: number
         cspm_hosts_percentage:
-          description: The percentage of CSPM host usage by by tag(s).
+          description: The percentage of CSPM host usage by tag(s).
           format: double
           type: number
         cspm_hosts_usage:
@@ -17945,6 +17945,63 @@ components:
             hours in the current date for all organizations.
           format: int64
           type: integer
+        csm_container_enterprise_compliance_count_avg:
+          description: Shows the average number of Cloud Security Management Enterprise
+            compliance containers over all hours in the current date for the given
+            org.
+          format: int64
+          type: integer
+        csm_container_enterprise_cws_count_avg:
+          description: Shows the average number of Cloud Security Management Enterprise
+            CWS containers over all hours in the current date for the given org.
+          format: int64
+          type: integer
+        csm_container_enterprise_total_count_avg:
+          description: Shows the average number of Cloud Security Management Enterprise
+            containers over all hours in the current date for the given org.
+          format: int64
+          type: integer
+        csm_host_enterprise_aas_host_count_top99p:
+          description: Shows the 99th percentile of all Cloud Security Management
+            Enterprise Azure app services hosts over all hours in the current date
+            for the given org.
+          format: int64
+          type: integer
+        csm_host_enterprise_aws_host_count_top99p:
+          description: Shows the 99th percentile of all Cloud Security Management
+            Enterprise AWS hosts over all hours in the current date for the given
+            org.
+          format: int64
+          type: integer
+        csm_host_enterprise_azure_host_count_top99p:
+          description: Shows the 99th percentile of all Cloud Security Management
+            Enterprise Azure hosts over all hours in the current date for the given
+            org.
+          format: int64
+          type: integer
+        csm_host_enterprise_compliance_host_count_top99p:
+          description: Shows the 99th percentile of all Cloud Security Management
+            Enterprise compliance hosts over all hours in the current date for the
+            given org.
+          format: int64
+          type: integer
+        csm_host_enterprise_cws_host_count_top99p:
+          description: Shows the 99th percentile of all Cloud Security Management
+            Enterprise CWS hosts over all hours in the current date for the given
+            org.
+          format: int64
+          type: integer
+        csm_host_enterprise_gcp_host_count_top99p:
+          description: Shows the 99th percentile of all Cloud Security Management
+            Enterprise GCP hosts over all hours in the current date for the given
+            org.
+          format: int64
+          type: integer
+        csm_host_enterprise_total_host_count_top99p:
+          description: Shows the 99th percentile of all Cloud Security Management
+            Enterprise hosts over all hours in the current date for the given org.
+          format: int64
+          type: integer
         cspm_aas_host_top99p:
           description: Shows the 99th percentile of all Cloud Security Posture Management
             Azure app services hosts over all hours in the current date for all organizations.
@@ -18386,6 +18443,63 @@ components:
         container_hwm:
           description: Shows the high-water mark of all distinct containers over all
             hours in the current date for the given org.
+          format: int64
+          type: integer
+        csm_container_enterprise_compliance_count_avg:
+          description: Shows the average number of Cloud Security Management Enterprise
+            compliance containers over all hours in the current date for the given
+            org.
+          format: int64
+          type: integer
+        csm_container_enterprise_cws_count_avg:
+          description: Shows the average number of Cloud Security Management Enterprise
+            CWS containers over all hours in the current date for the given org.
+          format: int64
+          type: integer
+        csm_container_enterprise_total_count_avg:
+          description: Shows the average number of Cloud Security Management Enterprise
+            containers over all hours in the current date for the given org.
+          format: int64
+          type: integer
+        csm_host_enterprise_aas_host_count_top99p:
+          description: Shows the 99th percentile of all Cloud Security Management
+            Enterprise Azure app services hosts over all hours in the current date
+            for the given org.
+          format: int64
+          type: integer
+        csm_host_enterprise_aws_host_count_top99p:
+          description: Shows the 99th percentile of all Cloud Security Management
+            Enterprise AWS hosts over all hours in the current date for the given
+            org.
+          format: int64
+          type: integer
+        csm_host_enterprise_azure_host_count_top99p:
+          description: Shows the 99th percentile of all Cloud Security Management
+            Enterprise Azure hosts over all hours in the current date for the given
+            org.
+          format: int64
+          type: integer
+        csm_host_enterprise_compliance_host_count_top99p:
+          description: Shows the 99th percentile of all Cloud Security Management
+            Enterprise compliance hosts over all hours in the current date for the
+            given org.
+          format: int64
+          type: integer
+        csm_host_enterprise_cws_host_count_top99p:
+          description: Shows the 99th percentile of all Cloud Security Management
+            Enterprise CWS hosts over all hours in the current date for the given
+            org.
+          format: int64
+          type: integer
+        csm_host_enterprise_gcp_host_count_top99p:
+          description: Shows the 99th percentile of all Cloud Security Management
+            Enterprise GCP hosts over all hours in the current date for the given
+            org.
+          format: int64
+          type: integer
+        csm_host_enterprise_total_host_count_top99p:
+          description: Shows the 99th percentile of all Cloud Security Management
+            Enterprise hosts over all hours in the current date for the given org.
           format: int64
           type: integer
         cspm_aas_host_top99p:
@@ -18837,6 +18951,63 @@ components:
         container_hwm_sum:
           description: Shows the sum of the high-water marks of all distinct containers
             over all hours in the current months for all organizations.
+          format: int64
+          type: integer
+        csm_container_enterprise_compliance_count_avg_sum:
+          description: Shows the average number of Cloud Security Management Enterprise
+            compliance containers over all hours in the current date for the given
+            org.
+          format: int64
+          type: integer
+        csm_container_enterprise_cws_count_avg_sum:
+          description: Shows the average number of Cloud Security Management Enterprise
+            CWS containers over all hours in the current date for the given org.
+          format: int64
+          type: integer
+        csm_container_enterprise_total_count_avg_sum:
+          description: Shows the average number of Cloud Security Management Enterprise
+            containers over all hours in the current date for the given org.
+          format: int64
+          type: integer
+        csm_host_enterprise_aas_host_count_top99p_sum:
+          description: Shows the 99th percentile of all Cloud Security Management
+            Enterprise Azure app services hosts over all hours in the current date
+            for the given org.
+          format: int64
+          type: integer
+        csm_host_enterprise_aws_host_count_top99p_sum:
+          description: Shows the 99th percentile of all Cloud Security Management
+            Enterprise AWS hosts over all hours in the current date for the given
+            org.
+          format: int64
+          type: integer
+        csm_host_enterprise_azure_host_count_top99p_sum:
+          description: Shows the 99th percentile of all Cloud Security Management
+            Enterprise Azure hosts over all hours in the current date for the given
+            org.
+          format: int64
+          type: integer
+        csm_host_enterprise_compliance_host_count_top99p_sum:
+          description: Shows the 99th percentile of all Cloud Security Management
+            Enterprise compliance hosts over all hours in the current date for the
+            given org.
+          format: int64
+          type: integer
+        csm_host_enterprise_cws_host_count_top99p_sum:
+          description: Shows the 99th percentile of all Cloud Security Management
+            Enterprise CWS hosts over all hours in the current date for the given
+            org.
+          format: int64
+          type: integer
+        csm_host_enterprise_gcp_host_count_top99p_sum:
+          description: Shows the 99th percentile of all Cloud Security Management
+            Enterprise GCP hosts over all hours in the current date for the given
+            org.
+          format: int64
+          type: integer
+        csm_host_enterprise_total_host_count_top99p_sum:
+          description: Shows the 99th percentile of all Cloud Security Management
+            Enterprise hosts over all hours in the current date for the given org.
           format: int64
           type: integer
         cspm_aas_host_top99p_sum:
